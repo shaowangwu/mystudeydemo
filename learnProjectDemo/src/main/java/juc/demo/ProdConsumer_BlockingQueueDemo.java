@@ -73,6 +73,7 @@ class MyResource
 * @Date: 2022/3/4 23:18
 * Description:线程通信之生产者消费者阻塞队列
  * volatile/CAS/atomicInteger/BlockingQueue/线程交互/原子引用
+ *阻塞队列BlockingQueue底层使用的是LockSupport.park(),LockSupport.unPark()
 */
 public class ProdConsumer_BlockingQueueDemo {
 
