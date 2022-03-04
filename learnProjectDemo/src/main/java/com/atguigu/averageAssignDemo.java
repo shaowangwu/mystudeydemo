@@ -2,7 +2,11 @@ package com.atguigu;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+* @author:shaowangwu
+* @Date: 2022/3/4 15:39
+* Description:
+*/
 public class averageAssignDemo {
 
     /**
