@@ -5,6 +5,9 @@ import java.util.List;
 
 public class averageAssignDemo {
 
+    /**
+     * 平均拆分集合
+     * ***/
     public static <T>List<List<T>> averageDividelist(List<T> source,int n){
         List<List<T>> lists = new ArrayList<List<T>>();
         //取余数
