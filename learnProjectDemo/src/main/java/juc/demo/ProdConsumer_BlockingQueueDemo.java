@@ -70,7 +70,7 @@ class MyResource
 }
 /**
 * @author:shaowangwu
-* @Date: 2022/3/4 15:40
+* @Date: 2022/3/4 23:18
 * Description:线程通信之生产者消费者阻塞队列
  * volatile/CAS/atomicInteger/BlockingQueue/线程交互/原子引用
 */
@@ -96,7 +96,9 @@ public class ProdConsumer_BlockingQueueDemo {
                 e.printStackTrace();
             }
         },"ConsumerThread").start();
-
+        System.out.println();
+        System.out.println();
+        System.out.println();
 
         try {
             TimeUnit.SECONDS.sleep(5L);
