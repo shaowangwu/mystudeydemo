@@ -4,9 +4,9 @@ package guigu.zhouyang.com.jvm;
 * @Date: 2022/3/5 18:52
 * Description:
 */
-public class GCRootDemo {
+public class GcRootDemo {
     
-    
+
     
     
     
